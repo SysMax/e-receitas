@@ -1,0 +1,58 @@
+/* 
+    Created on : 30/11/2018, 22:06:14
+    Author     : SysMax - Sistemas Comerciais.
+*/
+
+@charset "utf-8";
+
+/* Controles da Header */
+* {
+    text-decoration: none;
+}
+
+body {
+    
+}
+
+main {
+    width: auto;
+    height: 100%;    
+    
+}
+
+#navhome {
+    color: #6C0B07 !important;
+    background-image: linear-gradient(to bottom, rgba(85,110,121,.15), rgba(0,0,0,1) 90%,
+        rgba(255,255,255, .1) 70%, rgba(114,0,0,1)) !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+}
+
+#navhome > ul:last-child {
+    margin-right: 10px;
+    
+}
+
+#cadMedicamentos, #cadPacientes, #cadMedicos, #cadUsuarios, #cadRecSimples, #cadRecEspecial {
+    padding: 10px;
+    
+}
+
+#informacoes{
+    padding: 10px;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+}
+
+#tituloInfo {
+    width: auto;
+    height: auto;
+    color: #6C0B07 !important;
+    font-weight: bolder;
+    padding: 5px !important;
+    text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.6) !important;
+    background-image: linear-gradient(to bottom, rgba(50,50,50,.15), rgba(220,223,220,1) 90%,
+        rgba(255,255,255, .1) 70%, rgba(114,0,0,1)) !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+}
