@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <link href="./app.site/app.css/materialize.min.css" rel="stylesheet" type="text/css"/>
-        
+        <link href="./app.site/app.css/estiloGeral.css" rel="stylesheet" type="text/css"/>
         
     </head>
     <body class="color lighten cinza-5">
@@ -59,10 +59,10 @@
                     <i class="material-icons small center" style="color: #FFFFFF; padding-top: 12px;" title="Sobre o sistema...">live_help</i>
                 </li>
             </ul>
-            <div class="navig responsive" style="width: auto; float: right; margin-top: -20px;">
+            <div class="responsive" style="width: auto; float: right; margin-top: -20px;">
                 <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons small" style="color: #FFFFFF;">confirmation_number</i></a>
                 <div class="nav-wrapper">
-                    <ul class="right hide-on-med-and-down" style="padding:0px !important; margin-right: 5px;">
+                    <ul id="navWrapper" class="right hide-on-med-and-down" style="padding:0px !important; margin-right: 5px;">
                         <li class="center hoverable waves-effect waves-light" style="width: 95px; height: 60px !important; -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;">
                             <i class="material-icons small center" style="color: #FFFFFF; padding-top: 12px;" title="P&aacute;gina inicial..."
